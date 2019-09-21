@@ -38,7 +38,14 @@ public class MainActivity extends AppCompatActivity {
             {"Okítsam","Okíccsam"},{"Pultja","Pultya"},{"Rántjuk","Ránytuk"},{"Rántsuk","Ráncsuk"},{"Rejtsétek","Rejcsétek"},{"Rejtjük","Rejtyük"},{"Rontjátok","Rontyátok"},
             {"Rontsátok","Roncsátok"},{"Sajtjaim","Sajtyaim"},{"Sejtjük","Sejtyük"},{"Sejtsük","Sejcsük"},{"Sértsem","Sércsem"},{"Sértjük","Sértyük"},{"Sújtson","Sújcson"},
             {"Sújtsanak","Sújcsanak"},{"Szítjátok","Szíttyátok"},{"Szítsátok","Szíccsátok"},{"Tartsam","Tarcsam"},{"Tartjátok","Tartyátok"},{"Tiltja","Tiltya"},{"Tiltsuk","Tilcsuk"},
-            {"Töltsem","Tölcsem"},{"Töljük","Töltyük"},{"Újítja","Újíttya"},{"Újítsátok","Újíccsátok"},{"Üdítsétek","Üdíccsétek"},{"Szomszédság","Szomszéccság"}
+            {"Töltsem","Tölcsem"},{"Töljük","Töltyük"},{"Újítja","Újíttya"},{"Újítsátok","Újíccsátok"},{"Üdítsétek","Üdíccsétek"},{"Szomszédság","Szomszéccság"},
+            {"Féljünk","Féjjünk"},{"Halljuk","Hajjuk"},{"Hallatszon","Hallaccon"},{"Hányja","Hánnya"},{"Hunyjuk","Hunnyuk"},
+            {"Hányja","Hánnya"},{"Hunyjuk","Hunnyuk"},{"Áldjon","Álgyon"},{"Esdekel","Ezsdekel"},{"Fedjem","Feggyem"},{"Lúdjaim","Lúggyaim"},
+            {"Módján","Móggyán"},{"Nádja","Nággya"},{"Oldjuk","Olgyuk"},{"Padjaik","Paggyaik"},{"Rúdjából","Rúggyából"},{"Tudjanak","Tuggyanak"},
+            {"Vadjaik","Vaggyaik"},{"Vádjaik","Vággyaik"},{"Védjenek","Véggyenek"},{"Akadjon","Akaggyon"},{"Apadjon","Apaggyon"},{"Áradjon","Áraggyon"},
+            {"Átadjátok","Átaggyátok"},{"Csődjük","Csőggyük"},{"Ebédjeitek","Ebéggyeitek"},{"Eladjátok","Elaggyátok"},{"Éledjen","Éleggyen"},{"Epedjünk","Epeggyünk"},
+            {"Eredjetek","Ereggyetek"},{"Erődjeim","Erőggyeim"},{"Évadjaink","Évaggyaink"},{"Feddjük","Feggyük"},{"Földje","Fölgye"},{"Gondjainak","Gongyainak"},
+            {"Hordjátok","Horgyátok"},{"Ijedjetek","Ijeggyetek"},{"Imádja","Imággya"},{"Kardjaik","Kargyaik"},{"Kérdjétek","Kérgyétek"}
     };
     Random random = new Random();
     int arrayLength = szavak.length;
@@ -59,8 +66,8 @@ public class MainActivity extends AppCompatActivity {
         wordIndex1 = 0;
         wordIndex2 = 1;
 //Szövegmezők feliratozása
-        szovegmezo1 = (TextView) findViewById(R.id.szoveg1);
-        szovegmezo1.setText("Eredmény");
+        //szovegmezo1 = (TextView) findViewById(R.id.szoveg1);
+        //szovegmezo1.setText("Eredmény");
         szovegmezo2 = (TextView) findViewById(R.id.szoveg2);
         szovegmezo2.setText(str1);
 //gombok feliratozása
@@ -81,13 +88,13 @@ public class MainActivity extends AppCompatActivity {
                 if (gomb1.getText() == szavak[randomInteger][0]) { // megnézem hogy a kivalasztott szópr elem megegyezik-e a helyes elsõ szóval
                     goodanswer++;
                     kep.setImageResource(R.drawable.ok);
-                    szovegmezo1.setText("Helyes");
+                    //szovegmezo1.setText("Helyes");
                     gomb1.setBackgroundColor(Color.GREEN);
                     szovegmezo2.setText(str1+(goodanswer+wronganswer)+" / "+goodanswer+" / "+wronganswer);
                 } else {
                     wronganswer++;
                     kep.setImageResource(R.drawable.ko);
-                    szovegmezo1.setText("helytelen");
+                    //szovegmezo1.setText("helytelen");
                     gomb1.setBackgroundColor(Color.RED);
                     szovegmezo2.setText(str1+(goodanswer+wronganswer)+" / "+goodanswer+" / "+wronganswer);
                 }
@@ -101,13 +108,13 @@ public class MainActivity extends AppCompatActivity {
                 if (gomb2.getText() == szavak[randomInteger][1]) {
                     wronganswer++;
                     kep.setImageResource(R.drawable.ko);
-                    szovegmezo1.setText("helytelen");
+                    //szovegmezo1.setText("helytelen");
                     gomb2.setBackgroundColor(Color.RED);
                     szovegmezo2.setText(str1+(goodanswer+wronganswer)+" / "+goodanswer+" / "+wronganswer);
                 } else {
                     goodanswer++;
                     kep.setImageResource(R.drawable.ok);
-                    szovegmezo1.setText("Helyes");
+                    //szovegmezo1.setText("Helyes");
                     gomb2.setBackgroundColor(Color.GREEN);
                     szovegmezo2.setText(str1+(goodanswer+wronganswer)+" / "+goodanswer+" / "+wronganswer);
                 }
