@@ -18,7 +18,9 @@ public class MainActivity extends AppCompatActivity {
     private Button gomb1, gomb2, gomb3;
     private ImageView kep;
     String szavak[][] = {
-            {"Hagyjuk","Haggyjuk"},{"Gyógyuljon","Gyógyúljon"},
+            {"Hagyjuk","Haggyjuk"},{"Gyógyuljon","Gyógyúljon"},{"Színes","Szines"},{"Gyűjtés","Gyüjtés"},{"Újabb","Újjabb"},{"Hűsít","Hüsít"},
+            {"Loccsan","Locssan"},{"Gallyal","Galyjal"},{"Színesen","Szinesen"},{"Dicsér","Dícsér"},{"Színész","Szinész"},{"Utána","Utánna"},
+            {"Kátyú","Kátyu"},{"Ígérget","Igérget"},
             {"Fogyjon","Foggyon"},{"Játszik","Jáccik"},{"Különbség","Külömbség"},{"Fagyjon","Faggyon"}, {"Álljunk","Ájjunk"},
             {"Fonjanak","Fonnyanak"},{"Vetjük","Vettyük"},{"Bánja","Bánnya"},{"Bűnje","Bűnnye"},{"Fenjük","Fennyük"},{"Fonjon","Fonnyon"},
             {"Kenjük","Kennyük"},{"Kínjunk","Kínnyunk"},{"Sünjeim","Sünnyeim"},{"Vénjei","Vénnyeim"},{"Vonjam","Vonnyam"},{"Csenjük","Csennyük"},
