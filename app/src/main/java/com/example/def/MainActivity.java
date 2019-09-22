@@ -45,7 +45,11 @@ public class MainActivity extends AppCompatActivity {
             {"Vadjaik","Vaggyaik"},{"Vádjaik","Vággyaik"},{"Védjenek","Véggyenek"},{"Akadjon","Akaggyon"},{"Apadjon","Apaggyon"},{"Áradjon","Áraggyon"},
             {"Átadjátok","Átaggyátok"},{"Csődjük","Csőggyük"},{"Ebédjeitek","Ebéggyeitek"},{"Eladjátok","Elaggyátok"},{"Éledjen","Éleggyen"},{"Epedjünk","Epeggyünk"},
             {"Eredjetek","Ereggyetek"},{"Erődjeim","Erőggyeim"},{"Évadjaink","Évaggyaink"},{"Feddjük","Feggyük"},{"Földje","Fölgye"},{"Gondjainak","Gongyainak"},
-            {"Hordjátok","Horgyátok"},{"Ijedjetek","Ijeggyetek"},{"Imádja","Imággya"},{"Kardjaik","Kargyaik"},{"Kérdjétek","Kérgyétek"}
+            {"Hordjátok","Horgyátok"},{"Ijedjetek","Ijeggyetek"},{"Imádja","Imággya"},{"Kardjaik","Kargyaik"},{"Kérdjétek","Kérgyétek"},
+            {"Tanú","Tanu"},{"Higyjen","Higgyen"},{"Áccsal","Átsal"},{"Ujjnyi","Újnyi"},{"Kíváncsi","Kiváncsi"},{"Tüzijáték","Tűzijáték"},
+            {"Vízilabda","Vizilabda"},{"Egyik","Eggyik"},{"Nőjön","Nőjjön"},{"Nyugtat","Nyuktat"},{"Ötször","Öccör"},{"Bicikli","Bicigli"},
+            {"Azonban","Azomban"},{"Vízszintes","Visszintes"},{"Utazik","Útazik"},{"Húszas","Huszas"},{"Szíveskedjék","Sziveskedjék"},{"Menyegző","Mennyegző"},
+            {"Mennydörög","Menydörög"},{"Adja","Addja"},{"Újra","Újjra"},{"Ború","Boru"},{"Nézte","Nészte"},{"Hegedül","Hegedűl"},{"Csengettyű","Csengetyyű"},
     };
     Random random = new Random();
     int arrayLength = szavak.length;
