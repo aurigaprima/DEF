@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private Button gomb1, gomb2, gomb3;
     private ImageView kep;
     String szavak[][] = {
-            {"Hagyjuk", "Haggyuk"},
+            {"Hagyjuk","Haggyjuk"},{"Gyógyuljon","Gyógyúljon"},
             {"Fogyjon","Foggyon"},{"Játszik","Jáccik"},{"Különbség","Külömbség"},{"Fagyjon","Faggyon"}, {"Álljunk","Ájjunk"},
             {"Fonjanak","Fonnyanak"},{"Vetjük","Vettyük"},{"Bánja","Bánnya"},{"Bűnje","Bűnnye"},{"Fenjük","Fennyük"},{"Fonjon","Fonnyon"},
             {"Kenjük","Kennyük"},{"Kínjunk","Kínnyunk"},{"Sünjeim","Sünnyeim"},{"Vénjei","Vénnyeim"},{"Vonjam","Vonnyam"},{"Csenjük","Csennyük"},
@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
             {"Vízilabda","Vizilabda"},{"Egyik","Eggyik"},{"Nőjön","Nőjjön"},{"Nyugtat","Nyuktat"},{"Ötször","Öccör"},{"Bicikli","Bicigli"},
             {"Azonban","Azomban"},{"Vízszintes","Visszintes"},{"Utazik","Útazik"},{"Húszas","Huszas"},{"Szíveskedjék","Sziveskedjék"},{"Menyegző","Mennyegző"},
             {"Mennydörög","Menydörög"},{"Adja","Addja"},{"Újra","Újjra"},{"Ború","Boru"},{"Nézte","Nészte"},{"Hegedül","Hegedűl"},{"Csengettyű","Csengetyyű"},
+            {"Legkisebb","Legkissebb"},
     };
     Random random = new Random();
     int arrayLength = szavak.length;
@@ -145,6 +146,7 @@ public class MainActivity extends AppCompatActivity {
                 gomb1.setBackgroundColor(Color.LTGRAY);
                 gomb2.setBackgroundColor(Color.LTGRAY);
                 gomb3.setEnabled(false);
+                kep.setImageResource(R.drawable.question);
             } });
     }
 }
