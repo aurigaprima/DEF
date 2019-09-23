@@ -55,6 +55,16 @@ public class MainActivity extends AppCompatActivity {
             {"Legkisebb","Legkissebb"},{"Dicsér","Dícsér"},{"Akkumulátor","Akkumlátor"},{"Azt","Aszt"},{"Áru","Árú"},{"Báty","Bátty"},{"Beljebb","Belljebb"},
             {"Bent","Bennt"},{"Fent","Fennt"},{"Biztos","Bisztos"},{"Biztat","Bíztat"},{"Biztat","Bisztat"},{"Bujdosó","Bújdosó"},{"Címke","Cimke"},
             {"Folyjon","Follyon"},{"Frissesség","Frisseség"},{"Hírdetés","Hirdetés"},{"Ígéret","Igéret"},{"Irtó","Írtó"},{"Jegygyűrű","Jeggyűrű"},
+            {"Egybeolvad","Egybe olvad"},{"Egybevág","Egybe vág"},{"Félreért","Félre ért"},{"Félreolvas","Félre olvas"},{"Felülemelkedik","Felül emelkedik"},{"Felülbírál","Felül bírál"},
+            {"Fenntart","Fenn tart"},{"Fennmarad","Fenn marad"},{"Hazamegy","Haza megy"},{"Helyrejön","Helyre jön"},{"Jóvátesz","Jóvá tesz"},{"Kettéágazik","Ketté ágazik"},
+            {"Kölcsönad","Kölcsön ad"},{"Körbejár","Körbe jár"},{"Különválaszt","Külön választ"},{"Létrehoz","Létre hoz"},{"Mellétalál","Mellé talál"},{"Odanéz","Oda néz"},
+            {"Rajtaüt","Rajta üt"},{"Szembekerül","Szembe kerül"},{"Szerteszór","Szerte szór"},{"Továbbfejleszt","Tovább fejleszt"},{"Tönkretesz","Tönkre tesz"},
+            {"Túlél","Túl él"},{"Újjászületik","Újjá születik"},{"Újrakezd","Újrakezd"},{"Utánakérdez","Utána kérdez"},{"Végbemegy","Végbe megy"},{"Végigmér","Végig mér"},
+            {"Csődöt mond","Csődötmond"},{"Dugába dől","Dugábadől"},{"Cserbenhagy","Cserben hagy"},{"Egyetért","Egyet ért"},{"Együttműködik","Együtt működik"},
+            {"Ellentmond","Ellent mond"},{"Előrejelez","Előre jelez"},{"Észrevesz","Észre vesz"},{"Helybenhagy","Helyben hagy"},{"Helytálló","Helyt álló"},
+            {"Jólesik","Jól esik"},{"Jóllakik","Jól lakik"},{"Karbantart","Karban tart"},{"Kétségbeesik","Kétségbe esik"},{"Közzéteszt","Közzé tesz"},{"Közread","Közre ad"},
+            {"Nagyothall","Nagyot hall"},{"Nyilvántart","Nyilván tart"},{"Rendreutasít","Rendre utasít"},{"Szemrevételez","Szemre vételez"},{"Útbaigazít","Útba igazít"},
+            {"Véghez visz","Véghez visz"},{"Végrehajt","Végre hajt"},
     };
     Random random = new Random();
     int arrayLength = szavak.length;
