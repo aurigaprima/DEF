@@ -52,7 +52,9 @@ public class MainActivity extends AppCompatActivity {
             {"Vízilabda","Vizilabda"},{"Egyik","Eggyik"},{"Nőjön","Nőjjön"},{"Nyugtat","Nyuktat"},{"Ötször","Öccör"},{"Bicikli","Bicigli"},
             {"Azonban","Azomban"},{"Vízszintes","Visszintes"},{"Utazik","Útazik"},{"Húszas","Huszas"},{"Szíveskedjék","Sziveskedjék"},{"Menyegző","Mennyegző"},
             {"Mennydörög","Menydörög"},{"Adja","Addja"},{"Újra","Újjra"},{"Ború","Boru"},{"Nézte","Nészte"},{"Hegedül","Hegedűl"},{"Csengettyű","Csengetyyű"},
-            {"Legkisebb","Legkissebb"},
+            {"Legkisebb","Legkissebb"},{"Dicsér","Dícsér"},{"Akkumulátor","Akkumlátor"},{"Azt","Aszt"},{"Áru","Árú"},{"Báty","Bátty"},{"Beljebb","Belljebb"},
+            {"Bent","Bennt"},{"Fent","Fennt"},{"Biztos","Bisztos"},{"Biztat","Bíztat"},{"Biztat","Bisztat"},{"Bujdosó","Bújdosó"},{"Címke","Cimke"},
+            {"Folyjon","Follyon"},{"Frissesség","Frisseség"},{"Hírdetés","Hirdetés"},{"Ígéret","Igéret"},{"Irtó","Írtó"},{"Jegygyűrű","Jeggyűrű"},
     };
     Random random = new Random();
     int arrayLength = szavak.length;
