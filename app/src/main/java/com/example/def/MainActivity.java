@@ -64,7 +64,10 @@ public class MainActivity extends AppCompatActivity {
             {"Ellentmond","Ellent mond"},{"Előrejelez","Előre jelez"},{"Észrevesz","Észre vesz"},{"Helybenhagy","Helyben hagy"},{"Helytálló","Helyt álló"},
             {"Jólesik","Jól esik"},{"Jóllakik","Jól lakik"},{"Karbantart","Karban tart"},{"Kétségbeesik","Kétségbe esik"},{"Közzéteszt","Közzé tesz"},{"Közread","Közre ad"},
             {"Nagyothall","Nagyot hall"},{"Nyilvántart","Nyilván tart"},{"Rendreutasít","Rendre utasít"},{"Szemrevételez","Szemre vételez"},{"Útbaigazít","Útba igazít"},
-            {"Véghez visz","Véghez visz"},{"Végrehajt","Végre hajt"},
+            {"Véghez visz","Véghez visz"},{"Végrehajt","Végre hajt"},{"Azóta","Az óta"},{"Diszkóba","Discoba"},{"Programot","Programmot"},{"Mulasztás","Múlasztás"},{"Képzeld","Kébzeld"},
+            {"Képzeld","Kébzeld"},{"Képzeld","Képzeldd"},{"Megfeddtem","Megfedtem"},{"Észre tér","Észretér"},{"Rossz-szívű","Rossz szívű"},{"Útbaigazítottunk","Útba igazítottunk"},
+            {"angol diák","Angol diák"},{"Déli pu.-t","Déli Pu.-t"},{"Kőrös menti","Kőrösmenti"},{"Még egyszer","Mégegyszer"},{"ui.:","U.i.:"},{"Pontosan","Pontossan"},
+            {"Írd","Írdd"},{"Kör alakú","Köralakú"},{"Válltáskádat","Váltáskádat"},
     };
     Random random = new Random();
     int arrayLength = szavak.length;
