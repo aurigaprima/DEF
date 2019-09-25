@@ -64,7 +64,12 @@ public class MainActivity extends AppCompatActivity {
             {"Ellentmond","Ellent mond"},{"Előrejelez","Előre jelez"},{"Észrevesz","Észre vesz"},{"Helybenhagy","Helyben hagy"},{"Helytálló","Helyt álló"},
             {"Jólesik","Jól esik"},{"Jóllakik","Jól lakik"},{"Karbantart","Karban tart"},{"Kétségbeesik","Kétségbe esik"},{"Közzéteszt","Közzé tesz"},{"Közread","Közre ad"},
             {"Nagyothall","Nagyot hall"},{"Nyilvántart","Nyilván tart"},{"Rendreutasít","Rendre utasít"},{"Szemrevételez","Szemre vételez"},{"Útbaigazít","Útba igazít"},
-            {"Véghez visz","Véghez visz"},{"Végrehajt","Végre hajt"},{"Bele szeretett volna szólni","Beleszeretett volna szólni"}
+            {"Véghez visz","Véghez visz"},{"Végrehajt","Végre hajt"},{"Bele szeretett volna szólni","Beleszeretett volna szólni"},{"Ajánlólevél","Ajánló levél"},
+            {"Néhányszor","Néhány szor"},{"Akadálymentesítés","Akadály mentesítés"},{"Magánfelhasználó","Magán felhasználó"},{"Nemesacél","Nemes acél"},{"Kaszáscsillag","Kaszás-csillag"},
+            {"Légi forgalmi társaság","Légiforgalmi társaság"},{"Idejétmúlt","Idejét múlt"},{"Semmirekellő","Semmire kellő"},{"Barátfüle","Barát füle"},{"Bolondokháza","Bolondok háza"},
+            {"Ágrólszakadt","Ágról szakadt"},{"Bokor mögötti","Bokormögötti"},{"Föld alatti","Földalatti"},{"Idő előtti","Időelőtti"},{"Délelőtt","Dél előtt"},{"Holnapután","Holnap után"},
+            {"Munkanélküli","Munka nélküli"},{"Félig kész","Féligkész"},{"Félkész","Fél kész"},{"Napsugár","Nap sugár"},{"Vitamindús","Vitamin dús"},{"Autómentő","Autó mentő"},
+            {"Szélvédett","Szél védett"}
     };
     Random random = new Random();
     int arrayLength = szavak.length;
