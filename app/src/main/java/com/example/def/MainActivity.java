@@ -69,8 +69,9 @@ public class MainActivity extends AppCompatActivity {
             {"Légi forgalmi társaság","Légiforgalmi társaság"},{"Idejétmúlt","Idejét múlt"},{"Semmirekellő","Semmire kellő"},{"Barátfüle","Barát füle"},{"Bolondokháza","Bolondok háza"},
             {"Ágrólszakadt","Ágról szakadt"},{"Bokor mögötti","Bokormögötti"},{"Föld alatti","Földalatti"},{"Idő előtti","Időelőtti"},{"Délelőtt","Dél előtt"},{"Holnapután","Holnap után"},
             {"Munkanélküli","Munka nélküli"},{"Félig kész","Féligkész"},{"Félkész","Fél kész"},{"Napsugár","Nap sugár"},{"Vitamindús","Vitamin dús"},{"Autómentő","Autó mentő"},
-            {"Szélvédett","Szél védett"}
-    };
+            {"Szélvédett","Szél védett"},{"Tizenöt méteres","Tizenötméteres"},{"Halvány kékeszöld","Halványkékeszöld"},{"Üljünk bele","Üljünkbele"},{"El ne késs","Elnekéss"},{"Meg fogom nézni","Megfogom nézni"},
+            {"Hozzájárul","Hozzá járul"},{"Hozzá ment feleségül","Hozzáment feleségül"},{"E szerint","Eszerint"},{"A nélkül","Anélkül"},{"Házhoz szállít","Házhozszállít"}
+};
     Random random = new Random();
     int arrayLength = szavak.length;
     int randomInteger,randomszo,wordIndex1,wordIndex2,goodanswer,wronganswer;
