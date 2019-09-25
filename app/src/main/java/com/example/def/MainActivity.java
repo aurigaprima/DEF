@@ -64,7 +64,8 @@ public class MainActivity extends AppCompatActivity {
             {"Ellentmond","Ellent mond"},{"Előrejelez","Előre jelez"},{"Észrevesz","Észre vesz"},{"Helybenhagy","Helyben hagy"},{"Helytálló","Helyt álló"},
             {"Jólesik","Jól esik"},{"Jóllakik","Jól lakik"},{"Karbantart","Karban tart"},{"Kétségbeesik","Kétségbe esik"},{"Közzéteszt","Közzé tesz"},{"Közread","Közre ad"},
             {"Nagyothall","Nagyot hall"},{"Nyilvántart","Nyilván tart"},{"Rendreutasít","Rendre utasít"},{"Szemrevételez","Szemre vételez"},{"Útbaigazít","Útba igazít"},
-            {"Véghez visz","Véghez visz"},{"Végrehajt","Végre hajt"},
+            {"Véghez visz","Véghez visz"},{"Végrehajt","Végre hajt"},{"El kell mennem","Elkell mennem"},{"Torkaszakadtából","Torka szakadtából"}
+
     };
     Random random = new Random();
     int arrayLength = szavak.length;
